@@ -59,4 +59,13 @@ public class Caja {
     public Double obtenerVolumen() {
         return ancho * alto * profundidad;
     }
+
+    @Override
+    public String toString() {
+        return "Caja{" +
+                "ancho=" + ancho +
+                ", alto=" + alto +
+                ", profundidad=" + profundidad +
+                '}';
+    }
 }
